@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-image: url("2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+@media(max-width: 720px){
+    body{
+    /*background-image: url ("2.jpg");*/
+    width: 50%;
+    height: 100%;
+    }
+}
+#heading{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Almendra SC";
+    color: white;
+    transform: scale(1.1);
+}
+#Sblock{
+    padding: 40px;
+    margin-top: 30px;
+    background-color: rgba(173, 162, 162, 0.5);
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#Sblock:hover{
+    background-color: rgba(150, 150, 150, 0.8);
+}
+#survey-form{
+    height: auto;
+    text-align: start;
+    padding: 5px;
+}
+select,[type='text'], [type='number'], [type='email']{
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 90%;
+    margin: 3px 0px 3px 0px;
+}
+select{
+    width: 92.5%;
+}
+[type='radio']{
+    padding: 10px;
+}
+[type='checkbox']{
+    padding: 5px;
+    margin-top: 5px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    font-size: 15px;
+    padding: 7px;
+    margin-top: 5px;
+    resize: none;
+}
+#submit{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    padding: 0px;
+    border: 0px;
+    border-radius: 1px;
+    font-family: inherit;
+    font-size: 17px;
+    color: white;
+}
+#submit:hover{
+    background-color: rgba(0, 128,0, 0.9);
+    transform: scale(1.01);
+    font-weight: bold;
+}
+#Rbtn{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgba(248, 55, 55, 1);
+    border: 0px;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: -50px;
+    border-radius: 10px;
+}
+#Rbtn:hover{
+    background-color: rgba(255, 0,0, 1);
+    color: white;
+    font-weight: bold;
+}
