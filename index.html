@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--#Free Code Camp Project 2 -Survey Form -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0"/>
+        <link href="Surstyle.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Almendra SC' rel='stylesheet'>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <main>
+            <div id="heading">
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Help Us Know More About You!</p>
+            </div>
+            <div id="Sblock">
+                <form id="survey-form" action="#">
+                    <label for="name" id="name-label">
+                        Name:<br>
+                        <input id="name" type="text" placeholder="Enter your Name:" autocomplete="off" required>
+                    </label><br><br>
+                    <label for="mail" id="email-label">
+                        E-Mail:<br>
+                        <input type="email" placeholder="Enter your E-mail:" autocomplete="off" id="email" required>
+                    </label><br><br>
+                    <label for="number" id="number-label">
+                        Age(optional):<br>
+                        <input type="number" placeholder="Enter your Age" min="10" max="99" autocomplete="off" id="number">
+                    </label><br><br>
+                    <label for="role">
+                        Which Option Best Describes your current Role?:<br>
+                        <select autocomplete="off" id="dropdown">
+                            <option value="" disabled selected>Select Your Current Role</option>
+                            <option value="Student">Student</option>
+                            <option value="Prefer Not To Say">Prefer Not To Say</option>
+                            <option value="Worker">Worker</option>
+                            <option value="Other">Other</option>
+                            </select>
+                    </label><br><br>
+                    <label for="recommend" >
+                        Will you recommend your school to others?<br>
+                        <input type="radio" value="rc" name="recommend" checked>Definitely<br>
+                        <input type="radio" value="rc" name="recommend" autocomplete="off">Maybe<br>
+                        <input type="radio" value="rc" name="recommend" autocomplete="off">Not Sure<br>
+                    </label><br><br>
+                    <label for="role">
+                        What do you like the most About Your School?<br>
+                        <select autocomplete="off" id="dropdown">
+                            <option value="" disabled selected>Select Your Choice</option>
+                            <option value="">Studies</option>
+                            <option value="">Prefer Not To Say</option>
+                            <option value="">Sports</option>
+                            <option value="">Library</option>
+                            </select>
+                    </label><br><br>
+                    <label for="role">
+                        What improvements would you like to see?<br>
+                        <input type="checkbox" value="IC" autocomplete="off">Indoor Courts<br>
+                        <input type="checkbox" value="BA" autocomplete="off">Bigger Auditorium<br>
+                        <input type="checkbox" value="Syl" autocomplete="off">Interactive Syllabus<br>
+                        <input type="checkbox" value="Smrt Cls" autocomplete="off">Smart Class<br>
+                        <input type="checkbox" value="imp" autocomplete="off">24 Hour Doubt Clearance Website<br>
+                    </label><br><br>
+                    <label for="tarea" id="text-area">
+                        Any Comments or Suggestions?<br>
+                        <textarea placeholder="Enter Your Comments Here..." noresize></textarea>
+                    </label><br><br>
+                    <label for="submit" id="submit-btn">
+                        <button type="submit" value="Submit" id="submit">Submit</button>
+                    </label><br><br>
+                    <label for="Rbtnl" id="reset-btn">
+                        <button type="reset" value="Submit" id="Rbtn">Clear All</button>
+                    </label><br><br>
+                </form>
+            </div>
+        </main>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        </body>
+</html>
